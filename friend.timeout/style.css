@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(8, 97, 94);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+.box{
+    
+    height: 160px;
+    width:200px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    gap: 15px;
+}
+h2{
+    margin-top: 20px;
+}
+button{
+    background-color: skyblue;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+
+}
